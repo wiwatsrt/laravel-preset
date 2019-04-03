@@ -1,20 +1,20 @@
 {
-    "name": "adamwathan/laravel-preset",
-    "description": "Adam Wathan's Laravel Frontend Preset",
-    "keywords": ["laravel", "preset"],
+    "name": "wiwatsrt/laravel-tailwindcss-preset",
+    "description": "Laravel Tailwind CSS Preset",
+    "keywords": ["laravel", "tailwindcss", "preset"],
     "license": "MIT",
     "require": {
         "laravel/framework": "^5.8"
     },
     "autoload": {
         "psr-4": {
-            "NothingWorks\\LaravelPreset\\": "src/"
+            "Wiwatsrt\\LaravelPreset\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NothingWorks\\LaravelPreset\\PresetServiceProvider"
+                "Wiwatsrt\\LaravelPreset\\PresetServiceProvider"
             ]
         }
     }
