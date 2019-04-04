@@ -11,7 +11,7 @@
 
 <body class="font-sans antialiased text-black leading-tight">
     <div id="app">
-        @yield('body')
+        @yield('content')
     </div>
     <script src="{{ mix('js/app.js') }}"></script>
 </body>
