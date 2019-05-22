@@ -26,7 +26,7 @@ class Preset extends BasePreset
             'laravel-mix-purgecss' => '^4.1.0',
             'postcss-nesting' => '^7.0.0',
             'postcss-import' => '^12.0.1',
-            'tailwindcss' => '^1.0.0-beta.4',
+            'tailwindcss' => '^1.0.1',
         ], Arr::except($packages, [
             'bootstrap',
             'jquery',
